@@ -1,0 +1,54 @@
+{
+  "name": "nawill.ng-backend",
+  "version": "1.0.0",
+  "description": "This is backend app for nawill IT solutions official website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test -w",
+    "compile": "tsc -w",
+    "dev": "nodemon ./bin/www"
+    
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawilltech/nawill.ng-backend.git"
+  },
+  "author": "ushashir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nawilltech/nawill.ng-backend/issues"
+  },
+  "homepage": "https://github.com/nawilltech/nawill.ng-backend#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.25.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/config": "^3.3.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.14",
+    "@types/helmet": "^4.0.0",
+    "@types/http-errors": "^1.8.2",
+    "@types/morgan": "^1.9.3",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "supertest": "^6.3.0",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
