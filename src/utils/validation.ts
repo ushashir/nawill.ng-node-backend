@@ -1,0 +1,1 @@
+const validation = "This is valition section"
