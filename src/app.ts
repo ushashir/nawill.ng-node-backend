@@ -1,4 +1,5 @@
 /* eslint-disable quotes */
+import "reflect-metadata";
 import createError from "http-errors";
 import express, { Request, Response, NextFunction } from "express";
 import cookieParser from "cookie-parser";
@@ -6,20 +7,18 @@ import compression from "compression";
 import logger from "morgan";
 import cors from "cors";
 import helmet from "helmet";
-import {connection} from './config/db.config';
 import usersRouter from "./routes/userRoute"; 
-
+// import { pool } from './config/dbpull'
+import { createConnection } from "typeorm"; 
 
 const app = express();
 
-connection.connect()
 
-connection.query('SELECT 1 + 1 AS solution', (err, rows, fields) => {
-  if (err) throw err
-  console.log('The solution is: ', rows[0].solution)
-})
-
-connection.end()
+createConnection()
+  .then(async (connection) => {
+    app.listen(3333);
+  })
+  .catch((error) => console.log(error));
 
 console.log("app running on port 5000");
 

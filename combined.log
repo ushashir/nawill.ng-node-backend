@@ -1,0 +1,14 @@
+{"level":"info","message":"Database connection failed with error TypeError: this.mysql.createPool is not a function","timestamp":"2022-10-15T12:36:29.252Z"}
+{"level":"info","message":"Database connection failed with error TypeError: this.mysql.createPool is not a function","timestamp":"2022-10-15T12:38:35.090Z"}
+{"level":"info","message":"Database connection failed with error TypeError: this.mysql.createPool is not a function","timestamp":"2022-10-15T12:43:30.567Z"}
+{"level":"info","message":"Database connection failed with error TypeError: this.mysql.createPool is not a function","timestamp":"2022-10-15T17:41:26.772Z"}
+{"level":"info","message":"Database connection failed with error SyntaxError: /Users/decagon/nawill/nawill.ng-node-backend/ormconfig.json: Unexpected token m in JSON at position 0","timestamp":"2022-10-15T17:54:34.644Z"}
+{"level":"info","message":"Database connection failed with error Error: connect ECONNREFUSED 127.0.0.1:3306","timestamp":"2022-10-15T17:55:15.383Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T17:56:14.565Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T17:57:53.800Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T17:58:15.373Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T17:58:41.648Z"}
+{"level":"info","message":"Database connection failed with error SyntaxError: /Users/decagon/nawill/nawill.ng-node-backend/ormconfig.json: Unexpected token m in JSON at position 0","timestamp":"2022-10-15T18:00:12.809Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T18:00:28.708Z"}
+{"level":"info","message":"Database connection failed with error Error: connect ECONNREFUSED 23.202.231.167:3306","timestamp":"2022-10-15T18:02:57.340Z"}
+{"level":"info","message":"Database connection failed with error Error: Handshake inactivity timeout","timestamp":"2022-10-15T18:04:31.936Z"}
