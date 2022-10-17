@@ -11,16 +11,8 @@ const compression_1 = __importDefault(require("compression"));
 const morgan_1 = __importDefault(require("morgan"));
 const cors_1 = __importDefault(require("cors"));
 const helmet_1 = __importDefault(require("helmet"));
-const db_config_1 = require("./config/db.config");
 const userRoute_1 = __importDefault(require("./routes/userRoute"));
 const app = (0, express_1.default)();
-db_config_1.connection.connect();
-db_config_1.connection.query('SELECT 1 + 1 AS solution', (err, rows, fields) => {
-    if (err)
-        throw err;
-    console.log('The solution is: ', rows[0].solution);
-});
-db_config_1.connection.end();
 console.log("app running on port 5000");
 app.use((0, compression_1.default)());
 app.use((0, cors_1.default)());
