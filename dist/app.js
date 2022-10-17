@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* eslint-disable quotes */
-require("reflect-metadata");
 const http_errors_1 = __importDefault(require("http-errors"));
 const express_1 = __importDefault(require("express"));
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
@@ -13,14 +12,7 @@ const morgan_1 = __importDefault(require("morgan"));
 const cors_1 = __importDefault(require("cors"));
 const helmet_1 = __importDefault(require("helmet"));
 const userRoute_1 = __importDefault(require("./routes/userRoute"));
-// import { pool } from './config/dbpull'
-const typeorm_1 = require("typeorm");
 const app = (0, express_1.default)();
-(0, typeorm_1.createConnection)()
-    .then(async (connection) => {
-    app.listen(3333);
-})
-    .catch((error) => console.log(error));
 console.log("app running on port 5000");
 app.use((0, compression_1.default)());
 app.use((0, cors_1.default)());
