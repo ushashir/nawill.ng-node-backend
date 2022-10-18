@@ -10,15 +10,14 @@ const router = Router();
 /* POST register users*/
 router.post("/", async (req, res) => {
 	try {
-		const data = req.body;
+		// const data = req.body;
+        const data = "This is register route"
 		const response = await registerUser(data);
-		// console.log(response)
 		return res.status(201).json({
 			message: "Success",
 			response,
 		});
 	} catch (error) {
-		// console.log(error);
 		return res.status(400).json({
 			message: error,
 		});

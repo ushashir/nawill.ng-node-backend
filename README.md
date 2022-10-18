@@ -6,12 +6,6 @@
 - Node.js and TypeScript
 - Sequelise
 
-## RESOURCES
-- [Express](https://expressjs.com)
-- [Prisma Doc](https://www.prisma.io)
-- [Planet Scale](https://app.planetscale.com)
-- [Jest](http://jestjs.io)
-
 ## Basic Functionalities
 
 - Sign up and login
