@@ -12,6 +12,11 @@
 - [Planet Scale](https://app.planetscale.com)
 - [Jest](http://jestjs.io)
 
+## COMMANDS
+- Run `npx prisma db push` to push schema to db
+- Run `npx prisma migrate dev --name init` to update schema
+- Run `SELECT * FROM User` to view user tabke on planet scale
+SELECT * FROM User;
 ## Basic Functionalities
 
 - Sign up and login

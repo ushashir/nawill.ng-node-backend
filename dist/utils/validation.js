@@ -7,9 +7,10 @@ exports.registerUSerSchema = void 0;
 const zod_1 = __importDefault(require("zod"));
 exports.registerUSerSchema = zod_1.default
     .object({
+    userName: zod_1.default.string(),
+    email: zod_1.default.string().email(),
     firstName: zod_1.default.string(),
     lastName: zod_1.default.string(),
-    email: zod_1.default.string().email(),
     phone: zod_1.default.string(),
     avatar: zod_1.default.string().optional(),
     isVerified: zod_1.default.boolean().optional(),
