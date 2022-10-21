@@ -11,7 +11,13 @@
 - [Prisma Doc](https://www.prisma.io)
 - [Planet Scale](https://app.planetscale.com)
 - [Jest](http://jestjs.io)
+- [Reference Project](https://github.com/Sirjoseph94/noted)
 
+## COMMANDS
+- Run `npx prisma db push` to push schema to db
+- Run `npx prisma migrate dev --name init` to update schema
+- Run `SELECT * FROM User` to view user tabke on planet scale
+SELECT * FROM User;
 ## Basic Functionalities
 
 - Sign up and login

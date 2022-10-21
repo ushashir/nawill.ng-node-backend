@@ -2,9 +2,10 @@ import z from "zod";
 
 export const registerUSerSchema = z
   .object({
+    userName: z.string(),
+    email: z.string().email(),
     firstName: z.string(),
     lastName: z.string(),
-    email: z.string().email(),
     phone: z.string(),
     avatar: z.string().optional(),
     isVerified: z.boolean().optional(),
